@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="255.0" prefWidth="418.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication2.FXML_InputSiswaController">
+   <children>
+      <TextField fx:id="txtnpm" layoutX="200.0" layoutY="44.0" />
+      <Label layoutX="82.0" layoutY="48.0" text="NPM" />
+      <Label layoutX="82.0" layoutY="89.0" text="Nama" />
+      <TextField fx:id="txtnama" layoutX="200.0" layoutY="85.0" />
+      <Label layoutX="82.0" layoutY="135.0" text="Alamat" />
+      <TextField fx:id="txtalamat" layoutX="200.0" layoutY="131.0" />
+      <Button fx:id="btnsimpan" layoutX="75.0" layoutY="200.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <Button fx:id="btnbatal" layoutX="174.0" layoutY="200.0" mnemonicParsing="false" onAction="#batalklik" text="Batal" />
+      <Button fx:id="btnkeluar" layoutX="274.0" layoutY="200.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+   </children>
+</AnchorPane>
